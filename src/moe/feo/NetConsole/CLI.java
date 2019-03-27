@@ -77,13 +77,12 @@ public class CLI implements Runnable {
 			if (args[1] != null) {
 				sw = new Switch(String.valueOf(args[1]));// 创建开关对象
 			}
-			if (args[2] != null) {
-				if (args[2].equals("on"))
-					on = true;
-				else if (args[2].equals("off"))
-					on = false;
-				else
-					Printer.getInstance().printWarn(Message.INVALIDUSAGE.getMessage());
+			if (args[2].equals("on")) {
+				on = true;
+			} else if (args[2].equals("off")) {
+				on = false;
+			} else {
+				Printer.getInstance().printWarn(Message.INVALIDUSAGE.getMessage());
 				break;
 			}
 			if (on) {
