@@ -111,8 +111,12 @@ public class CLI implements Runnable {
 				break;
 			}
 			date = Tools.toDate(args[3]);
-			if (args[4].equals("loop")) {
-				loop = true;
+			try {
+				if (args[4].equals("loop")) {
+					loop = true;
+				}
+			} catch (ArrayIndexOutOfBoundsException e) {
+
 			}
 			if (date != null) {
 				sw.Inertia(date, on, loop);
