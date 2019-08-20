@@ -11,3 +11,10 @@ pi4j: https://pi4j.com/1.2/index.html
 Wiring Pi(树莓派系统自带): http://wiringpi.com/
 SnakeYAML: https://bitbucket.org/asomov/snakeyaml
 JLine: https://github.com/jline/jline3
+
+用法/命令:
+开关某个引脚: switch <引脚名> <on|off>
+定时开关某个引脚: timing <引脚名> <on|off> <yyyy-MM-dd_hh:mm:ss> [loop]
+查看所有pin口状态: info [pincache|pin]
+重载软件: reload
+关闭软件: stop
