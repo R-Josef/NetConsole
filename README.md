@@ -9,10 +9,10 @@
 因为某些原因，暂时不能发布许可.
 
 ## 用到的库:
-pi4j: https://pi4j.com/1.2/index.html<br>
-Wiring Pi(树莓派系统自带): http://wiringpi.com/<br>
-SnakeYAML: https://bitbucket.org/asomov/snakeyaml<br>
-JLine: https://github.com/jline/jline3<br>
+[pi4j](https://pi4j.com/1.2/index.html)<br>
+[Wiring Pi](http://wiringpi.com/)(树莓派系统自带)<br>
+[SnakeYAML](https://bitbucket.org/asomov/snakeyaml)<br>
+[JLine](https://github.com/jline/jline3)<br>
 
 ## 用法/命令:
 开关某个引脚: `switch <引脚名> <on|off>`<br>
